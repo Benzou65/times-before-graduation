@@ -12,5 +12,9 @@ const defaultOptions = {
 };
 
 export default function Graduation(): ReactElement {
-  return <Lottie options={defaultOptions} height={500} width={500} />;
+  return (
+    <div style={{ maxWidth: 500 }}>
+      <Lottie options={defaultOptions} />
+    </div>
+  );
 }

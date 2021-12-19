@@ -15,6 +15,10 @@
   font-family: "Source Code Pro", monospace;
 }
 
+.App-header img {
+  margin-top: 0.5em;
+}
+
 p {
   margin: 0.5em;
 }
